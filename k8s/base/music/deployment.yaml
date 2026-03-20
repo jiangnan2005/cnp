@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: music-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: music
+  template:
+    metadata:
+      labels:
+        app: music
+    spec:
+      containers:
+      - name: music
+        image: crpi-zyfejs59wqo10ivm.cn-shenzhen.personal.cr.aliyuncs.com/jiangnan5210/musicn-container:latest
+        command: ["msc", "-q"]
+        ports:
+        - containerPort: 7478
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 7478
+          initialDelaySeconds: 10
+          periodSeconds: 10
+
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 7478
+          initialDelaySeconds: 5
+          periodSeconds: 5

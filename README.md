@@ -49,14 +49,13 @@ cloud-native-project/
 
 ## ⚙️ 快速部署
 
-```bash
-# 一键部署
+一键部署
 ./scripts/deploy.sh
 
-# 查看状态
+查看状态
 ./scripts/status.sh
 
-# 清理资源
+清理资源
 ./scripts/clean.sh
 
 ## 🌐 访问方式

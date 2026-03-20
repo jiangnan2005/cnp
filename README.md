@@ -38,11 +38,11 @@ User → Ingress → Service → Pod（Flask / Music / Redis）
 ---
 
 ## 📁 项目结构
-cloud-native-project/
-├── docker/
-├── k8s/
-├── scripts/
-├── docs/
+cloud-native-project/  
+├── docker/  
+├── k8s/  
+├── scripts/  
+├── docs/  
 └── README.md
 
 ---

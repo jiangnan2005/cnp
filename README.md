@@ -59,21 +59,21 @@ cloud-native-project/
 ./scripts/clean.sh
 
 ## 🌐 访问方式
-Flask: http://jiangnan10.online
+Flask: http://jiangnan10.online  
 Music: http://music.jiangnan10.online
 
 ## 📈 自动扩容演示
-kubectl get hpa
+kubectl get hpa  
 kubectl get pods -w
 
 ## 🧠 技术亮点
--使用 HPA 实现服务弹性伸缩
--使用 ConfigMap 解耦配置与代码
--使用 PVC 实现数据持久化
--使用 Ingress 实现多服务统一入口
+-使用 HPA 实现服务弹性伸缩  
+-使用 ConfigMap 解耦配置与代码  
+-使用 PVC 实现数据持久化  
+-使用 Ingress 实现多服务统一入口  
 -实现从本地到云环境的无缝迁移
 
 ## 📌 适用场景
--云原生应用开发
--Kubernetes 学习与实践
+-云原生应用开发  
+-Kubernetes 学习与实践  
 -微服务架构入门项目

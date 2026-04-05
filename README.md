@@ -77,3 +77,9 @@ kubectl get pods -w
 -云原生应用开发  
 -Kubernetes 学习与实践  
 -微服务架构入门项目
+
+---
+
+## 🤖 开发工具
+
+- [Copilot CLI 使用说明](docs/copilot-cli.md)：了解 Copilot CLI 与本地委托会话的区别，以及 GitHub Copilot CLI 安装建议
